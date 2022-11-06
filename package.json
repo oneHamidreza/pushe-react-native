@@ -16,8 +16,7 @@
   "author": "pushe.co",
   "license": "",
   "peerDependencies": {
-    "react-native": "^0.63.2",
-    "react-native-windows": "0.59.0-rc.1",
+    "react-native": "0.64.3",
     "invariant": "2.2.4"
   }
 }
