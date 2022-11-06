@@ -48,11 +48,11 @@ function _attachEventBroadcasts(event, nativeBroadcastEvent) {
 }
 
 // Start point for attaching nativeBrodcast events
-if (RNPushe !== null && Platform.OS === 'android') {
-    _pusheEvents.forEach(function(nativeBroadcastEvent, event) {
-        _broadcastListeners[event] = _attachEventBroadcasts(event, nativeBroadcastEvent);
-    });
-}
+// if (RNPushe !== null && Platform.OS === 'android') {
+//     _pusheEvents.forEach(function(nativeBroadcastEvent, event) {
+//         _broadcastListeners[event] = _attachEventBroadcasts(event, nativeBroadcastEvent);
+//     });
+// }
 
 
 class Pushe {
